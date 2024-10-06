@@ -2,6 +2,7 @@ import React from "react";
 import { HERO } from "../constants/index";
 import carlImg from "../assets/Moksh.png";
 import { motion } from "framer-motion";
+import { IoMdCloudDownload } from "react-icons/io";
 function Hero() {
   return (
     <section className="flex min-h-screen flex-wrap items-center">
@@ -18,6 +19,14 @@ function Hero() {
           {HERO.greet}
         </p>
         <p className="mb-8 p-2 text-xl">{HERO.description}</p>
+        <div className="flex items-center">
+          <a
+            href="https://drive.google.com/file/d/1I-UrzkrrXJYRj5ioQfhs--k-sCqKRPdR/view?usp=drive_link"
+            className="px-10 py-4 rounded-full flex items-center gap-2 text-gray-900 bg-white hover:bg-gray-300 mb-4"
+          >
+            Download CV <IoMdCloudDownload />{" "}
+          </a>
+        </div>
       </motion.div>
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}

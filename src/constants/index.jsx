@@ -7,12 +7,12 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage1 from "../assets/project1.jpg";
+import projectImage2 from "../assets/project2.jpg";
+import projectImage3 from "../assets/project3.jpg";
+import projectImage4 from "../assets/project4.jpg";
+import projectImage5 from "../assets/project5.jpg";
+import projectImage6 from "../assets/project6.jpg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -157,22 +157,22 @@ export const EDUCATION = [
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
+  // },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
+  // },
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/moksh7666/profilecard/?igsh=MzJnMW5mbzM2a251 ",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
+  // },
   {
     href: "https://github.com/Moksh8516",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
