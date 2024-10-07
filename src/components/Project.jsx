@@ -29,11 +29,9 @@ function Project() {
               alt={project.name}
               className="h-full w-full object-cover transition-transform duration-500 round-lg group-hover:scale-110 cursor-pointer"
             />
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileHover={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className=" absolute inset-0 flex flex-col items-center text-white justify-center opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100 hover:opacity-100"
+            <div
+              className=" absolute inset-0 flex flex-col items-center text-white justify-center opacity-0 backdrop-blur-lg transition-opacity duration-500
+              group-hover:opacity-100"
             >
               <h3 className="mb-2 text-xl opacity-100">{project.name}</h3>
               <p className="mb-12 p-4">{project.description}</p>
@@ -48,7 +46,7 @@ function Project() {
                   <MdArrowOutward />
                 </div>
               </a>
-            </motion.div>
+            </div>
           </motion.div>
         ))}
       </div>
