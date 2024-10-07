@@ -60,7 +60,7 @@ export const PROJECTS = [
     id: 3,
     name: "Todo-List",
     description:
-      "A Todo-List application built with React for using store delay records.",
+      "A Todo-List application built with React for using store daily records.",
     image: projectImage3,
     githubLink: "https://github.com/Moksh8516/Todo-List.git",
   },
