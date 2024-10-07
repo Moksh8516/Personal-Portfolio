@@ -27,7 +27,7 @@ function Project() {
               whileHover={{ scale: 1.1 }}
               src={project.image}
               alt={project.name}
-              className="h-full w-full object-cover transition-transform duration-500 round-lg group-hover:scale-110"
+              className="h-full w-full object-cover transition-transform duration-500 round-lg group-hover:scale-110 cursor-pointer"
             />
             <motion.div
               initial={{ opacity: 0 }}
