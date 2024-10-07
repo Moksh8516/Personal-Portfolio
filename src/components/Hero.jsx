@@ -18,7 +18,7 @@ function Hero() {
         <p className="p-2 text-3xl tracking-tighter lg:text-3xl">
           {HERO.greet}
         </p>
-        <p className="mb-8 p-2 text-xl">{HERO.description}</p>
+        <p className="mb-8 p-2 text-xl text-justify">{HERO.description}</p>
         <div className="flex items-center">
           <a
             href="https://drive.google.com/file/d/1I-UrzkrrXJYRj5ioQfhs--k-sCqKRPdR/view?usp=drive_link"
