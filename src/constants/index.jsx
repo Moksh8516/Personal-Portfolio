@@ -13,6 +13,7 @@ import projectImage3 from "../assets/project3.jpg";
 import projectImage4 from "../assets/project4.jpg";
 import projectImage5 from "../assets/project5.jpg";
 import projectImage6 from "../assets/project6.jpg";
+import lmsSite from "../assets/lmsSite.jpg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -58,11 +59,11 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    name: "Todo-List",
+    name: "LMS Site",
     description:
-      "A Todo-List application built with React for using store daily records.",
-    image: projectImage3,
-    githubLink: "https://github.com/Moksh8516/Todo-List.git",
+      "Developed a live LMS using the MERN stack, featuring course management, user authentication, and responsive design. Deployed and maintained for real-world use, enhancing e-learning experiences effectively.",
+    image: lmsSite,
+    githubLink: "https://advancecomputercentre.in",
   },
   {
     id: 4,
@@ -82,11 +83,11 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    name: "Chat Application",
+    name: "Todo-List",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+      "A Todo-List application built with React for using store daily records.",
+    image: projectImage3,
+    githubLink: "https://github.com/Moksh8516/Todo-List.git",
   },
 ];
 
@@ -178,7 +179,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/in/moksh-moksh-26a2432b3",
+    href: "https://www.linkedin.com/in/moksh-26a2432b3",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
