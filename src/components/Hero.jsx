@@ -21,7 +21,7 @@ function Hero() {
         <p className="mb-8 p-2 text-xl text-justify">{HERO.description}</p>
         <div className="flex items-center">
           <a
-            href="https://drive.google.com/file/d/11WY51r8sfzSMW_b1IVHoOtN6l2sGbfCT/view?usp=sharing"
+            href="https://drive.google.com/file/d/11WY51r8sfzSMW_b1IVHoOtN6l2sGbfCT/view?usp=drive_link"
             className="px-10 py-4 rounded-full flex items-center gap-2 text-gray-900 bg-white hover:bg-gray-300 mb-4"
           >
             Download CV <IoMdCloudDownload />{" "}
