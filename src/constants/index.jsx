@@ -63,7 +63,7 @@ export const PROJECTS = [
     description:
       "Developed a live LMS using the MERN stack, featuring course management, user authentication, and responsive design. Deployed and maintained for real-world use, enhancing e-learning experiences effectively.",
     image: lmsSite,
-    githubLink: "https://advancecomputercentre.in",
+    githubLink: "https://github.com/Moksh8516/LMS-Site-Manider-Sir.git",
   },
   {
     id: 4,
